@@ -73,8 +73,24 @@ button:hover{
     cursor: pointer;
     transition: 0.3s ease;
 }
+.navbar-light .navbar-toggler{
+    border: none;
+    outline: none;   
+}
+#menubars{
+    font-size: 1.5rem;
+    padding: 7px;
+    cursor: pointer;
+    color: black;
+    transition: 0.3s ease;
+}
+#menubars:hover,
+#menubars:active{
+    color: #fff;
+}
 
 /* home */
+
 #home{
     background-image: url(../images/home1.jpg);
     width: 100%;
@@ -88,4 +104,15 @@ button:hover{
 }
 #home span{
     color: coral;
+}
+
+@media only screen and (max-width: 991px) {
+    body>nav>div>button:hover,
+    body>nav>div>button:active{
+        background-color: #fb774b;
+    }
+    body>nav>div>button:hover #menubars,
+    body>nav>div>button:active #menubars{
+        color: #fff;
+    }
 }
