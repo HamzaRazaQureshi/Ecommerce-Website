@@ -115,4 +115,10 @@ button:hover{
     body>nav>div>button:active #menubars{
         color: #fff;
     }
+    .navbar-light .navbar-nav .nav-link{
+        text-align: center;
+    }
+    #search, #cart{
+        display: none;
+    }
 }
