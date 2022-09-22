@@ -106,6 +106,59 @@ button:hover{
     color: coral;
 }
 
+/* product types */
+
+#new-products #pro1{
+    background-image: url(../images/sneakers.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+    cursor: pointer;
+}
+#new-products #pro2{
+    background-image: url(../images/outfit.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+    cursor: pointer;
+}
+#new-products #pro3{
+    background-image: url(../images/watch.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+    cursor: pointer;
+}
+#new-products .details .inner{
+    margin: 20%;
+}
+#new-products .details h2{
+    text-decoration: wavy;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    font-size: xx-large;
+    font-style: oblique;
+    font-family: fantasy;
+    color: chocolate;
+}
+#new-products .details .inner{
+    margin: 20%;
+}
+#new-products #pro1:hover{
+    background-image: url(../images/sneakers2.jpg);
+}
+#new-products #pro2:hover{
+    background-image: url(../images/outfit2.jpg);
+}
+#new-products #pro3:hover{
+    background-image: url(../images/watch2.jpg);
+}
+
+
+
 @media only screen and (max-width: 991px) {
     body>nav>div>button:hover,
     body>nav>div>button:active{
