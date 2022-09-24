@@ -109,7 +109,7 @@ button:hover{
 /* product types */
 
 #new-products #pro1{
-    background-image: url(../images/sneakers.jpg);
+    background-image: url(../images/sneakers2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -117,7 +117,7 @@ button:hover{
     cursor: pointer;
 }
 #new-products #pro2{
-    background-image: url(../images/outfit.jpg);
+    background-image: url(../images/outfit2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -125,7 +125,7 @@ button:hover{
     cursor: pointer;
 }
 #new-products #pro3{
-    background-image: url(../images/watch.jpg);
+    background-image: url(../images/watch2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -133,28 +133,17 @@ button:hover{
     cursor: pointer;
 }
 #new-products .details .inner{
-    margin: 20%;
+    display: grid;
+    justify-content: center;
+    margin: 7rem;
 }
-#new-products .details h2{
-    text-decoration: wavy;
-    cursor: pointer;
-    margin-bottom: 1rem;
-    font-size: xx-large;
-    font-style: oblique;
-    font-family: fantasy;
-    color: chocolate;
+.sneakers, .outfit, .watch{
+    display: none;
 }
-#new-products .details .inner{
-    margin: 20%;
-}
-#new-products #pro1:hover{
-    background-image: url(../images/sneakers2.jpg);
-}
-#new-products #pro2:hover{
-    background-image: url(../images/outfit2.jpg);
-}
-#new-products #pro3:hover{
-    background-image: url(../images/watch2.jpg);
+#new-products #pro1:hover .sneakers,
+#new-products #pro2:hover .outfit,
+#new-products #pro3:hover .watch{
+    display: block;
 }
 
 
