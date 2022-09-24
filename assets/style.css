@@ -32,6 +32,18 @@ h5{
 h6{
     color: #d8d8d8;
 }
+hr{
+    width: 30px;
+    height: 2px;
+    background-color: #fb774b;
+}
+.star{
+    padding: 10px 0;
+}
+.star i{
+    font-size: 0.8rem;
+    color: goldenrod;
+}
 button{
     cursor: pointer;
     font-size: 0.8rem;
@@ -113,7 +125,7 @@ button:hover{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 20rem;
+    height: 30rem;
     cursor: pointer;
 }
 #new-products #pro2{
@@ -121,7 +133,7 @@ button:hover{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 20rem;
+    height: 30rem;
     cursor: pointer;
 }
 #new-products #pro3{
@@ -129,16 +141,20 @@ button:hover{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 20rem;
+    height: 30rem;
     cursor: pointer;
 }
 #new-products .details .inner{
     display: grid;
     justify-content: center;
-    margin: 7rem;
+    margin: 12rem;
 }
 .sneakers, .outfit, .watch{
     display: none;
+    padding: 1rem 4rem;
+    font-family: 'Poppins','sans-serif';
+    font-size: large;
+    font-style: oblique;
 }
 #new-products #pro1:hover .sneakers,
 #new-products #pro2:hover .outfit,
@@ -146,6 +162,31 @@ button:hover{
     display: block;
 }
 
+/* products */
+
+.products{
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.products img{
+    transition: 0.3s all;
+}
+.products img:hover{
+    opacity: 0.7;
+}
+.products .buy-btn{
+    background: #fb774b;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+}
+.products:hover .buy-btn{
+    transform: translateY(0);
+    opacity: 1;
+}
+.buy-btn:hover{
+    background-color: #1d1d1d;
+}
 
 
 @media only screen and (max-width: 991px) {
