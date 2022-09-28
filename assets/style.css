@@ -66,6 +66,7 @@ button:hover{
     font-size: 1rem;
     top: 0;
     left: 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 } 
 .navbar-light .navbar-nav .nav-link{
     padding: 0 20px;
@@ -82,9 +83,10 @@ button:hover{
 .navbar i{
     font-size: 1.2rem;
     padding: 0 7px;
+    color: #000;
     cursor: pointer;
     transition: 0.3s ease;
-}
+} 
 .navbar-light .navbar-toggler{
     border: none;
     outline: none;   
@@ -257,6 +259,7 @@ footer .copyright a:hover{
 footer .footer-one i{
     color: white;
     font-size: x-large;
+    padding-bottom: 1rem;
 }
 
 @media only screen and (max-width: 991px) {
