@@ -274,6 +274,20 @@ footer .footer-one i{
     font-style: italic;
     font-family: auto;
 }
+.pagination li a,
+.pagination li span{
+    color: #000;
+}
+.pagination .page1 a{
+    background-color: #fb774b;
+    border-color: #fb774b;
+}
+.pagination li a:hover,
+.pagination li span:hover{
+    background-color: #fb774b;
+    color: #d8d8d8;
+    border-color: #fb774b;
+}
 
 @media only screen and (max-width: 991px) {
     body>nav>div>button:hover,
