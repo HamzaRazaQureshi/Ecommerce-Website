@@ -289,6 +289,16 @@ footer .footer-one i{
     border-color: #fb774b;
 }
 
+/* product-info */
+.small-img-grp{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    cursor: pointer;
+    flex-basis: 24%;
+}
+
 @media only screen and (max-width: 991px) {
     body>nav>div>button:hover,
     body>nav>div>button:active{
